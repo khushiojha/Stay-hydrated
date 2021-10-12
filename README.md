@@ -1,5 +1,5 @@
 # Stay-hydrated
-# Stay_Hydrated
+
 
 StayHydrated is a simple chrome extension that reminds the user to take a sip of water at a regular interval. 
 
