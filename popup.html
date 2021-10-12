@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+      <div id="container">
+      	<div class="heading">
+      	  <img src="images/icon.png" alt="Icon"> 
+      	  <h1 id="extensionTitle">Stayhydrated</h1>	
+      	  <!-- <i class="fas fa-cog"></i> -->
+      	</div>
+	    <div class="main">
+	      <h2>Time until next water break:</h2>
+	      <div class="time-wrapper">
+	        <div id="current-state">
+	          <h2 id="current-time"></h2>
+		    </div>
+		    <canvas id="circular_progress" width="300" height="300">ck</canvas>	
+	      </div>
+	    </div>
+	    <div class="wave-container">
+	      <div id="wave" class="lightblue"></div>
+	    </div>
+      </div>
+  </body>
+  <script type="text/javascript" src="popup.js"></script>
+  <script type="text/javascript" src="moment.js"></script>
+</html> 
+
